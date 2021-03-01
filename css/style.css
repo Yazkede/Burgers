@@ -1,0 +1,293 @@
+@font-face {
+	font-family: 'Rubik-Variable';
+	src: url('fonts/Rubik-VariableFont_wght.eot');
+	src: local('☺'), url('fonts/Rubik-VariableFont_wght.woff') format('woff'), url('fonts/Rubik-VariableFont_wght.ttf') format('truetype'), url('fonts/Rubik-VariableFont_wght.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rubik-Italic';
+	src: url('fonts/Rubik-Italic-VariableFont_wght.eot');
+	src: local('☺'), url('fonts/Rubik-Italic-VariableFont_wght.woff') format('woff'), url('fonts/Rubik-Italic-VariableFont_wght.ttf') format('truetype'), url('fonts/Rubik-Italic-VariableFont_wght.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Martel';
+	src: url('fonts/Martel-Regular.eot');
+	src: local('☺'), url('fonts/Martel-Regular.woff') format('woff'), url('fonts/Martel-Regular.ttf') format('truetype'), url('fonts/Martel-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Martel';
+	src: url('fonts/Martel-Bold.eot');
+	src: local('☺'), url('fonts/Martel-Bold.woff') format('woff'), url('fonts/Martel-Bold.ttf') format('truetype'), url('fonts/Martel-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+   min-width: 724px;
+   max-width: 1054px;
+   margin:0px auto;
+}
+
+.header {
+   width: 1024px;
+   height: 126px;
+}
+
+
+.logo{
+   display:inline-block;
+   padding: 53px 0 0 57px;
+   width: 168px;
+   height: 21px;
+   color: #0e1d2b;
+   font-family: "Martel";
+   font-size: 26px;
+   line-height: 17.39px;
+   text-align: left;
+   text-transform: uppercase;
+   /* Text style for "B, URGERS" */
+   font-family: "Martel";
+   letter-spacing: -1.02px;
+}
+
+.logo a{
+   color:black;
+}
+
+.logo2{
+   display: inline-block;
+   padding: 53px 0 0 5px;
+   width: 168px;
+   height: 21px;
+   color: #0e1d2b;
+   font-family: "Martel";
+   font-size: 26px;
+   line-height: 17.39px;
+   text-align: left;
+   text-transform: uppercase;
+   color: #ffa326;
+   font-family: "Martel";
+   font-weight: bold;
+   letter-spacing: -1.02px;
+   margin-right: 70px;
+}
+
+.menubar{
+   display: inline-block;
+   text-shadow: 0 0.3px 0.3px #000;
+}
+
+ul{
+   float: right;
+   font-family: "Martel";
+   font-weight: normal;
+   letter-spacing: -0.15px;
+}
+
+ul li{
+   float: left;
+   padding-left: 35px;
+   color: black;
+   text-decoration: none;
+}
+
+ul li a{
+   color:black;
+}
+
+ul li:first-child{
+   font-family: "Martel";
+   font-weight: bold; 
+   text-decoration: none;
+}
+
+.site-content {
+   width: 1026px;
+}
+
+.imgblock{
+   height: 394px;
+   position: relative;
+}
+
+.text1{
+   position: absolute;
+   z-index: 2;
+   padding: 100px 0 0 58px;
+   width: 370px;
+   height: 120px;
+   color: #ffa326;
+   font-family: Rubik;
+   font-size: 65px;
+   font-weight: 500;
+   line-height: 60px;
+   text-align: left;  
+}
+
+.text2{
+   position: absolute;
+   z-index: 2;
+   padding: 245px 0 0 61px;
+   width: 400px;
+   height: 36px;
+   color: #ffffff;
+   font-family: Martel;
+   font-size: 14px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: 20px;
+   text-align: left;
+}
+
+.text3{
+   position: absolute;
+   z-index: 2;
+   float: right;
+   padding: 100px 0 0 586px;
+   width: 294px;
+   height: 47px;
+   color: #ffffff;
+   font-family: Rubik;
+   font-size: 65px;
+   font-weight: 500;
+   line-height: 60px;
+   text-align: left;
+
+}
+
+.text4{
+   position: absolute;
+   z-index: 2;
+   padding: 175px 0 0 591px;
+   width: 90%;
+   height: 32px;
+   color: #0d1e2d;
+   font-family: Martel;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: left;
+   text-shadow: 0 0.3px 0.3px #000;
+}
+
+.text5{
+   position: absolute;
+   z-index: 2;
+   padding: 250px 0 0 594px;
+   text-shadow: 1px 0 0.3px #000;
+   width: 70%;
+   height: 18px;
+   color: #0d1e2d;
+   font-family: Martel;
+   font-size: 14px;
+   font-weight: bold;
+   line-height: 18px;
+   text-align: left;
+   letter-spacing: 0.2px;
+}
+
+.button{
+   position: absolute;
+   z-index: 2;
+   margin: 238px 0 0 729px;
+   width: 157px;
+   height: 37px;
+   box-shadow: 3px 5px 8px 1px rgba(218, 139, 32, 0.75);
+   background-color: #ffffff; 
+}
+
+.link{
+   width: 74px;
+   height: 14px;
+   color: #0d1e2d;
+   font-family: Martel;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 18px;
+   padding: 0 0 12px 22px;
+}
+
+.imgleft{
+   display: inline-block;
+   float: left;
+   width: 512px;
+   height: 394px;
+   background: url('../img/Layer_111.jpg') left no-repeat;
+   opacity: 1;
+}
+
+.imgright{
+   display: inline-block;
+   float: right;
+   width: 514px;
+   height: 394px;
+   background: url("../img/Layer_222.jpg") left no-repeat;
+   opacity: 1;
+   
+}
+
+.rectangleleft {
+   display: block;
+   float: left;
+   width: 512px;
+   height: 394px;
+   background-color: #011627;
+   opacity: 0.9;
+   position: absolute;
+}
+.rectangleright {
+   display: inline-block;
+   float: left;
+   width: 514px;
+   height: 394px;
+   background-color: #ff9f1c;
+   opacity: 0.9;
+   position: absolute;
+}
+
+.burgers {
+}
+.bondy {
+}
+.chiken {
+}
+.double {
+}
+.menu {
+}
+.slider {
+}
+.contact {
+}
+.text {
+}
+.tel {
+}
