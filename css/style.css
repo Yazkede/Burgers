@@ -215,24 +215,27 @@ ul li:first-child{
 }
 
 .button{
-   position: absolute;
-   z-index: 2;
+   position: fixed;
+   z-index: 3;
    margin: 238px 0 0 729px;
    width: 157px;
    height: 37px;
-   box-shadow: 3px 5px 8px 1px rgba(218, 139, 32, 0.75);
-   background-color: #ffffff; 
+   box-shadow: 3px 5px 8px 1px#de7411;
+   background: #fff url("../img/icons/burger_icon.png") 108px no-repeat;
+   
 }
 
 .link{
-   width: 74px;
+   position: absolute;
+   width: 97px;
    height: 14px;
    color: #0d1e2d;
    font-family: Martel;
    font-size: 16px;
    font-weight: bold;
    line-height: 18px;
-   padding: 0 0 12px 22px;
+   margin-top: 11px;
+   padding-left: 22px;
 }
 
 .imgleft{
