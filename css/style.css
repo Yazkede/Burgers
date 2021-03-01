@@ -215,28 +215,28 @@ ul li:first-child{
 }
 
 .button{
-   position: fixed;
-   z-index: 3;
-   margin: 238px 0 0 729px;
+   position: absolute;
+   z-index: 2;
+   margin: 237px 0 0 218px;
    width: 157px;
    height: 37px;
-   box-shadow: 3px 5px 8px 1px#de7411;
-   background: #fff url("../img/icons/burger_icon.png") 108px no-repeat;
-   
-}
-
-.link{
-   position: absolute;
-   width: 97px;
-   height: 14px;
+   background-color: #fff;
+   border-radius: 2px;
    color: #0d1e2d;
    font-family: Martel;
    font-size: 16px;
    font-weight: bold;
    line-height: 18px;
-   margin-top: 11px;
-   padding-left: 22px;
+   padding: 11px 0 0 18px;
+   text-shadow: 0.3px 0 0.3px #000;
+   
 }
+
+.button span{
+   padding: 0 42px 0 0;
+   background: url("../img/icons/burger_icon.png") right no-repeat;
+}
+
 
 .imgleft{
    display: inline-block;
@@ -277,14 +277,36 @@ ul li:first-child{
 }
 
 .burgers {
+   width: 1024px;
+   height: 2470px;
 }
 .bondy {
+   display: inline-block;
+   width: 161px;
+   height: 122px;
+   background: url("../img/Layer_4.jpg")left no-repeat, url("../img/Ellipse_1.jpg") left no-repeat;
+   margin: 87px 0 0 135px;
 }
 .chiken {
+   display: inline-block;
+   width: 161px;
+   height: 135px;
+   background: url("../img/Layer_5.jpg")center no-repeat, url("../img/Ellipse_1_copy.jpg")left no-repeat;
+   margin: 85px 0 0 127px;
 }
 .double {
+   display: inline-block;
+   width: 153px;
+   height: 128px;
+   background: url("../img/Layer_6.jpg")right no-repeat, url("../img/Ellipse_1_copy_2.jpg")left no-repeat;
+   margin: 98px 0 0 105px;
 }
 .menu {
+
+   width: 1054px;
+   height: 404px;
+   background: url("../img/Layer_7.jpg");
+   
 }
 .slider {
 }
