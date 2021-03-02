@@ -131,10 +131,11 @@ ul li:first-child{
 
 .site-content {
    width: 1026px;
+   
 }
 
 .imgblock{
-   height: 394px;
+   max-height: 396px;
    position: relative;
 }
 
@@ -229,6 +230,7 @@ ul li:first-child{
    line-height: 18px;
    padding: 11px 0 0 18px;
    text-shadow: 0.3px 0 0.3px #000;
+   box-shadow: 1.5px 2.5px 2px #d6640b;
    
 }
 
@@ -282,30 +284,98 @@ ul li:first-child{
 }
 .bondy {
    display: inline-block;
-   width: 161px;
-   height: 122px;
-   background: url("../img/Layer_4.jpg")left no-repeat, url("../img/Ellipse_1.jpg") left no-repeat;
-   margin: 87px 0 0 135px;
+   width: 171px;
+   height: 173px;
+   background: url("../img/bondy.jpg") 0 14px no-repeat;
+   margin: 55px 0 0 132px;
 }
+
+.beef-bondy{
+   width: 132px;
+   height: 22px;
+   margin: 200px 0 0 20px;
+   color: #f39c22;
+   font-family: "Rubik";
+   font-size: 23px;
+   font-weight: bold;
+   line-height: 15.66px;
+   text-align: left;
+}
+
+.beefnote{
+   width: 146px;
+   height: 28px;
+   margin: 10px 0 0 10px;
+   color: #0b1d2c;
+   font-family: "Martel";
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 15.66px;
+   text-align: center;
+}
+
+.cenbondy{
+   width: 162px;
+   height: 29px;
+   margin-top: 14px;
+   background-color: #e1e1e1;
+}
+
+.clrbondy{
+   /* Style for "345KJ" */
+   display: inline-block;
+   color: #485058;
+   font-family: "Martel";
+   font-size: 12px;
+   line-height: 15.66px;
+   text-align: right;
+   text-transform: uppercase;
+   padding: 4px 12px 0 12px;
+
+}
+
+.cenbondy span{
+   
+      /* Style for "$, 12.5" */
+      display: inline-block;
+      width: 51px;
+      height: 19px;
+      color: #0b1d2c;
+      font-family: "Rubik";
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 15.66px;
+      text-align: right;
+      padding: 7px 0 0 10px;   
+   }
+
+
+
+
+
 .chiken {
    display: inline-block;
-   width: 161px;
-   height: 135px;
-   background: url("../img/Layer_5.jpg")center no-repeat, url("../img/Ellipse_1_copy.jpg")left no-repeat;
-   margin: 85px 0 0 127px;
+   width: 172px;
+   height: 170px;
+   background: url("../img/chiken.jpg") -2px 10px no-repeat;
+   margin: 62px 0 0 115px;
 }
 .double {
-   display: inline-block;
-   width: 153px;
-   height: 128px;
-   background: url("../img/Layer_6.jpg")right no-repeat, url("../img/Ellipse_1_copy_2.jpg")left no-repeat;
-   margin: 98px 0 0 105px;
+   display:inline-block;
+   width: 178px;
+   height: 146px;
+   background: url("../img/double.jpg") -7px 0 no-repeat;
+   margin: 58px 0 0 95px;
+   
 }
 .menu {
 
-   width: 1054px;
+   width: 1024px;
    height: 404px;
-   background: url("../img/Layer_7.jpg");
+   background: url("../img/layer_7_need.jpg");
+   position:absolute;
+   top: 985px;
+   
    
 }
 .slider {
