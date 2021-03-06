@@ -146,7 +146,7 @@ ul li:first-child{
    width: 370px;
    height: 120px;
    color: #ffa326;
-   font-family: Rubik;
+   font-family: "Rubik";
    font-size: 65px;
    font-weight: 500;
    line-height: 60px;
@@ -160,7 +160,7 @@ ul li:first-child{
    width: 400px;
    height: 36px;
    color: #ffffff;
-   font-family: Martel;
+   font-family: "Martel";
    font-size: 14px;
    font-weight: 400;
    font-style: normal;
@@ -177,7 +177,7 @@ ul li:first-child{
    width: 294px;
    height: 47px;
    color: #ffffff;
-   font-family: Rubik;
+   font-family: "Rubik";
    font-size: 65px;
    font-weight: 500;
    line-height: 60px;
@@ -192,7 +192,7 @@ ul li:first-child{
    width: 90%;
    height: 32px;
    color: #0d1e2d;
-   font-family: Martel;
+   font-family: "Martel";
    font-size: 14px;
    line-height: 20px;
    text-align: left;
@@ -207,7 +207,7 @@ ul li:first-child{
    width: 70%;
    height: 18px;
    color: #0d1e2d;
-   font-family: Martel;
+   font-family: "Martel";
    font-size: 14px;
    font-weight: bold;
    line-height: 18px;
@@ -224,7 +224,7 @@ ul li:first-child{
    background-color: #fff;
    border-radius: 2px;
    color: #0d1e2d;
-   font-family: Martel;
+   font-family: "Martel";
    font-size: 16px;
    font-weight: bold;
    line-height: 18px;
@@ -537,7 +537,7 @@ ul li:first-child{
    font-weight: 500;
    line-height: 60px;
    text-align: left;
-   margin: -60.5% 0 0 389px;
+   margin: -60.5% 0 0 393px;
    position:absolute;
    
 
@@ -558,8 +558,102 @@ ul li:first-child{
 }
 
 .contact {
+   width: 1026px;
+   height: 470px;
+   margin-top: -60.5%;
 }
-.text {
+
+h4{
+   /* Style for "Contact Us" */
+   width: 325px;
+   color: #0d1624;
+   font-family: "Rubik";
+   font-size: 60px;
+   font-weight: 500;
+   line-height: 60px;
+   margin-left: 350px;
 }
+
+.text8{
+   /* Style for "Beautiful" */
+width: 258px;
+height: 13px;
+color: #0b1d2c;
+font-family: "Martel";
+font-size: 12px;
+line-height: 15.66px;
+text-align: center;
+padding-top: 4px;
+margin-left: 375px;
+text-shadow: 0.2px 0 0.2px #000;
+}
+
+.form{
+   width: 1026px;
+   height: 367px;
+   background-color: #0d1e2d;
+   margin-top: 28px;
+}
+
+.username {
+   /* Style for "Rectangle" */
+   width: 255px;
+   height: 30px;
+   box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
+   background-color: #ffffff;
+   margin: 87px 0 0 135px;
+}
+
+.address{
+   /* Style for "Rectangle" */
+   width: 255px;
+   height: 30px;
+   box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
+   background-color: #ffffff;
+   margin: 6px 636px 0 135px;
+}
+
 .tel {
+   /* Style for "Rectangle" */
+   width: 255px;
+   height: 30px;
+   box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
+   background-color: #ffffff;
+   margin: 6px 0 0 135px;
+}
+
+textarea{
+   /* Style for "Rectangle" */
+   width: 255px;
+   height: 89px;
+   box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
+   background-color: #ffffff;
+   margin: 6px 636px 0 135px;
+}
+
+.map{
+   /* Style for "Layer 9" */
+   width: 314px;
+   height: 172px;
+   float:right;
+   margin: -235px 171px 0 0;
+   
+}
+
+.submit{
+   /* Style for "Rectangle" */
+   width: 255px;
+   height: 30px;
+   box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
+   background-color: #ffa326;
+   margin: 10px 0 0 135px;
+   /* Style for "Submit Now" */
+   color: #ffffff;
+   font-family: "Martel";
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 15.66px;
+   text-align: center;
+   text-shadow: 0.3px 0 0.3px #000;
+   box-shadow: 1px 1px 2px #d6640b;
 }
