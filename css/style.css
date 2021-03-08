@@ -543,9 +543,7 @@ ul li:first-child{
    font-size: 60px;
    font-weight: 500;
    line-height: 60px;
-   position: relative;
-   top: -120%;
-   left: 420px;
+   margin: 180px 0 0 388px;
 }
 
 .text7{
@@ -601,14 +599,31 @@ text-shadow: 0.2px 0 0.2px #000;
    
 }
 
+h2{
+   /* Style for "Fill this" */
+width: 355px;
+height: 13px;
+color: #ffffff;
+font-family: "Martel";
+font-size: 12px;
+line-height: 15.66px;
+text-align: center;
+padding: 51px 0 0 135px;
+
+}
+
 .username {
    /* Style for "Rectangle" */
    width: 255px;
    height: 30px;
    box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
    background-color: #ffffff;
-   margin: 87px 0 0 135px;
+   margin: 33px 0 0 135px;
    
+}
+
+.username:focus{
+   box-shadow: 3px 5px 5px 2px rgba(1, 9, 17, 0.75), inset 0.5px 0.5px 0.5px 0.5px #000;
 }
 
 input {
@@ -625,6 +640,10 @@ input {
    margin: 6px 636px 0 135px;
 }
 
+.address:focus{
+   box-shadow: 3px 5px 5px 2px rgba(1, 9, 17, 0.75), inset 0.5px 0.5px 0.5px 0.5px #000;
+}
+
 .tel {
    /* Style for "Rectangle" */
    width: 255px;
@@ -632,6 +651,10 @@ input {
    box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75);
    background-color: #ffffff;
    margin: 6px 0 0 135px;
+}
+
+.tel:focus{
+   box-shadow: 3px 5px 5px 2px rgba(1, 9, 17, 0.75), inset 0.5px 0.5px 0.5px 0.5px #000;
 }
 
 textarea{
@@ -643,6 +666,10 @@ textarea{
    margin: 6px 636px 0 135px;
    font-size: 16px;
    padding-left: 3px;
+}
+
+textarea:focus{
+   box-shadow: 3px 5px 5px 2px rgba(1, 9, 17, 0.75), inset 0.5px 0.5px 0.5px 0.5px #000;
 }
 
 .map{
@@ -657,11 +684,11 @@ textarea{
 .send{
    /* Style for "Rectangle" */
    width: 255px;
-   height: 30px;4  
+   height: 30px;
    box-shadow: 3px 5px 42px 1px rgba(29, 59, 86, 0.75); 
    background-color: #ffa326;
-   margin: 10px 0 0 135px;
-   /* Style for "Submit Now" */
+   margin:10px 0 0 135px;
+      /* Style for "Submit Now" */
    color: #ffffff;
    font-family: "Martel";
    font-size: 16px;
@@ -674,7 +701,7 @@ textarea{
 }
 
 .send:hover{
-   background-color: rgb(196, 160, 3);
+   background-color: rgb(196, 80, 3);
 }
 
 .send:active{
@@ -682,34 +709,6 @@ textarea{
    top:2px;
    -webkit-box-shadow: 0 2px 1px #000;
    box-shadow: 0 1px 1px #d6640b;
-}
-
-.call{
-   width: 65px;
-   height: 25px;
-   background-color: #1d4669;
-   font-family: "Martel";
-   font-size: 19px;
-   line-height: 18.13px;
-   text-align: center;
-   margin: 4px 0 0 537px;
-   padding-top: 5px;
-   border-radius: 10px;
-   -webkit-box-shadow: 2px 2px 1px #000;
-   box-shadow: 1px 3px 3px #01111f;
-   color: #ffffff;
-}
-
-.call:hover{
-   background-color: #5ba6e7;
-}
-
-.call:active{
-   position: relative;
-   top: 2px;
-   -webkit-box-shadow: 0 2px 1px #000;
-   box-shadow: 1px 1px 1px #01111f;
-
 }
 
 .forma p{
@@ -722,10 +721,28 @@ textarea{
    font-size: 19px;
    line-height: 18.13px;
    text-align: center;
-
 }
 
-.forma .numbertel{
+
+
+.call{
+   display: inline-block;
+   float: right;
+   /* Style for "Call  |" */
+   width: 49px;
+   height: 19px;
+   color: #ffffff;
+   font-family: "Martel";
+   font-size: 19px;
+   line-height: 18.13px;
+   text-align: center;
+   padding: 13px 23px 0 0 ;
+   margin-right: 434px;
+}
+
+.numbertel{
+   display: inline-block;
+   float: right;
    /* Style for "09005896" */
    width: 239px;
    height: 46px;
@@ -735,5 +752,29 @@ textarea{
    font-weight: bold;
    line-height: 45.85px;
    text-align: center;
-   margin: -67px 0 0 615px;
+   padding: 0 12px 0 0;
+   margin: -30px 172px 46px 615px;
+} 
+
+.footer{
+   /* Style for "Rectangle" */
+   width: 1026px;
+   height: 45px;
+   background-color: #050b10;
+   /* Style for "www.sellfy" */
+   color: #ffa326;
+   font-family: "Martel";
+   font-size: 12px;
+   line-height: 27.85px;
+   text-align: left;
+   padding: 0 0 0 135px;
+}
+
+.footer p{
+   color: #ffa326;
+   font-family: "Martel";
+   font-size: 12px;
+   line-height: 27.85px;
+   text-align: right;
+   margin: -55px 173px 0 0 ;
 }
