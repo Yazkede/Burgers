@@ -731,11 +731,11 @@ textarea:focus{
    /* Style for "Call  |" */
    width: 49px;
    height: 19px;
+   text-align: center;
    color: #ffffff;
    font-family: "Martel";
    font-size: 19px;
    line-height: 18.13px;
-   text-align: center;
    padding: 13px 23px 0 0 ;
    margin-right: 434px;
 }
@@ -746,7 +746,6 @@ textarea:focus{
    /* Style for "09005896" */
    width: 239px;
    height: 46px;
-   color: #ffa326;
    font-family: "Martel";
    font-size: 47px;
    font-weight: bold;
@@ -754,7 +753,15 @@ textarea:focus{
    text-align: center;
    padding: 0 12px 0 0;
    margin: -30px 172px 46px 615px;
-} 
+}
+
+.numbertel a{
+   color: #ffa326;
+}
+
+.numbertel a:hover{
+   color: #e6141e;
+}
 
 .footer{
    /* Style for "Rectangle" */
